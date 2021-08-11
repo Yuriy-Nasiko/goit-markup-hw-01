@@ -1,3 +1,105 @@
-body {
-  background: #fff;
+:root{
+  --page-text: #212121;
+  --primary-text-color: #757575;
+  --secondary-text-color: #2196f3;
+  --auxiliary-text-color:#FFFFFF;
+  --background-text-color: #2196f3;
+
 }
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background: #fff;
+  color: #212121;
+
+}
+
+/* Шапка */
+
+/* Логотип */
+
+
+.logo {
+  font-family: Raleway;
+  text-decoration: none;
+}
+
+.logo-web {
+  color: #2196f3;
+}
+
+.logo-studio {
+  color: #000000;
+}
+
+/* подвал web studio */
+
+.list .logo-studio {
+  color: #ffffff;
+}
+
+/* Главная навигация */
+
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+
+.site-nav {
+  color: #2196f3;
+}
+
+.link {
+  color: #212121;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+  transition-duration: 0.4s;
+}
+
+/* Связь */
+
+.nav-mail, .nav-tel {
+  color: #757575;
+  text-decoration: none;
+}
+ 
+.nav-mail:hover,
+.nav-mail:focus,
+.nav-tel:hover,
+.nav-tel:focus {
+  color: #2196f3;
+}
+/* Портфолио */
+
+h1 { /* скрыть текст */ }
+
+.button {
+  color: var(--page-text);
+  border: 1px solid transparent;
+  background-color: #F5F4FA ;
+  border-radius: 4px;
+}
+.button:hover, .button:focus {
+  color: #FFFFFF;
+  background-color: var(--background-text-color);
+}
+/* основной цвет фона #ffffff */
+
+/* вспомогательный цвет фона #F5F4FA */
+
+/* цвет георой и футер #2F303A */ 
+
+/* primary-text-color #212121 */основной цвет текста
+
+/* secondary-text-color #757575 */ второй основной цвет текста
+
+/* вспомогательный цвет текста #2196F3 */
+
+/* вспомогательный цвет текста #FFFFFF */
+
+/* цвт почты футер #FFFFFF 60% */ ;
